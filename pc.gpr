@@ -1,0 +1,10 @@
+project PC is
+
+   package Ide is
+      for Vcs_Kind use "Git";
+   end Ide;
+
+   for Main use ("hola.adb");
+
+end PC;
+
